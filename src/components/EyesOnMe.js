@@ -8,9 +8,12 @@ class EyesOnMe extends React.Component {
 
   render() {
     return (
+      <div>
       <button onFocus={this.onFocus} onBlur={this.onBlur}>
         Eyes on me, please!
       </button>
+      
+      </div>
     )
   }
 }
